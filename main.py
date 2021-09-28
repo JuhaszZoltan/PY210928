@@ -7,6 +7,7 @@ c = float(input('c = '))
 if a == 0 or b == 0 or c == 0:
   print('ezen egyenlet megoldásánál nem használható a megoldóképlet')
 else:
+  # diszkrimináns
   d = math.pow(b, 2) + 4 * a * c
   if d < 0: 
     print('valós számok halmazán nincw megoldása az egyenletnek')
